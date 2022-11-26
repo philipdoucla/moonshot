@@ -13,13 +13,17 @@ body {
   color: #061f4a;
 }
 
+h2 {
+  color:#046b99
+}
+
 a {
   color: #00a6d2;
   text-decoration: none;
 }
 
 a:hover {
-  color: #046b99;
+  color: #99231b;
   text-decoration: none;
 }
 
@@ -127,7 +131,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #9bdaf1;
+  background: #dce4ef;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -228,7 +232,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #f9aa43;
+  background-color: #c62d1f;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -283,7 +287,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #f9aa43;
+  color: #c62d1f;
 }
 
 .navbar .dropdown:hover>ul {
@@ -455,7 +459,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #00a6d2;
+  color: #dce4ef;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -471,12 +475,12 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
-  background: #046b99;
+  color: #dce4ef;
+  background: #99231b;
 }
 
 #hero .btn-about:hover {
-  background: #00a6d2;
+  background: #c62d1f;
 }
 
 @media (min-width: 1024px) {
@@ -488,7 +492,8 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: #061f4a;
+    opacity: 0.5;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -499,11 +504,13 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    text-align: center;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
 }
 
@@ -538,7 +545,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #f9aa43;
+  background: #c62d1f;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -606,7 +613,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #061f4a;
+  color: #046b99;
 }
 
 .about .content ul {
@@ -792,12 +799,12 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #effbf9;
+  background: #f9e0de;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #00a6d2;
+  color: #c62d1f;
 }
 
 .resume .resume-item ul {
@@ -1293,7 +1300,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #9bdaf1;
+  background: #dce4ef;
   padding: 30px 0;
   color: #061f4a;
   font-size: 14px;
@@ -1307,4 +1314,18 @@ section {
 
 #footer .credits a {
   color: #046b99;
+}
+
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+.event {
+  border-radius: 14px;
+  filter: brightness(100%);
+  transition: 0.3s ease-out;
+}
+
+.event:hover {
+  filter: brightness(80%);
+  transition: 0.3s ease-in;
 }
