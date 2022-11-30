@@ -1329,3 +1329,7 @@ section {
   filter: brightness(80%);
   transition: 0.3s ease-in;
 }
+
+.citation {
+  color: #061f4a !important;
+}
