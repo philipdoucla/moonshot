@@ -468,10 +468,10 @@ h6 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 24px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 40px;
+  padding: 2px 40px;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
@@ -1332,4 +1332,23 @@ section {
 
 .citation {
   color: #061f4a !important;
+}
+
+.btn-timeline {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #ffffff;
+  background: #99231b;
+}
+
+.btn-timeline:hover {
+  color: #ffffff;
+  background: #c62d1f;
 }
