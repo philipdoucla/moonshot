@@ -1352,3 +1352,9 @@ section {
   color: #ffffff;
   background: #c62d1f;
 }
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
